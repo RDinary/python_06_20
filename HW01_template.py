@@ -19,6 +19,13 @@ def Min(arr):
 
 
 def Add(arr, value):
+    """
+    Add([2,4,6], 8)
+    [2,4,6,8]
+    :param arr:
+    :param value:
+    :return:
+    """
     pass
 
 
@@ -65,12 +72,14 @@ def refill(arr):
 
 def Menu():
     arr_special = [2, 3, 4, 4, 4, 4, 4, 4, 4]
-    print("for min press 1, for max press 2 ...")
+    print("for min press 1, for max press 2, for add print 3 ...")
     choice = int(input("enter your choice"))
     if choice == 1:
         Min(arr_special)
     elif choice == 2:
         Max(arr_special)
+    elif choice == 3:
+        value = int(input("enter valued to add"))
 
 
 if __name__ = "__main__":
