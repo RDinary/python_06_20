@@ -26,11 +26,11 @@ def Average(arr):
     pass
 
 
-def Index(value):
+def Index(arr, value):
     pass
 
 
-def Count(value):
+def Count(arr, value):
     pass
 
 
@@ -43,3 +43,13 @@ def refill(arr):
     insert 500 random numbers to arr
     '''
     pass
+
+
+def Menu():
+    arr = [2, 3, 4, 4, 4, 4, 4, 4, 4]
+    print("for min press 1, for max press 2 ...")
+    choice = int(input("enter your choice"))
+    if choice == 1:
+        Min(arr)
+    elif choice == 2:
+        Max(arr)
