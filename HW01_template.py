@@ -10,6 +10,7 @@ def Max(arr):
     Max([2,3,4,5])
     5
     """
+    # return!!!
     pass
 
 
@@ -61,14 +62,16 @@ def refill(arr):
     pass
 
 
+
 def Menu():
-    arr = [2, 3, 4, 4, 4, 4, 4, 4, 4]
+    arr_special = [2, 3, 4, 4, 4, 4, 4, 4, 4]
     print("for min press 1, for max press 2 ...")
     choice = int(input("enter your choice"))
     if choice == 1:
-        Min(arr)
+        Min(arr_special)
     elif choice == 2:
-        Max(arr)
+        Max(arr_special)
 
 
 if __name__ = "__main__":
+    Menu()
