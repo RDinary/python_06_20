@@ -1,4 +1,15 @@
+"""
+4 list functions are allowed to use:
+insert, pop, remove, append
+operatros: in, not in
+"""
+
+
 def Max(arr):
+    """
+    Max([2,3,4,5])
+    5
+    """
     pass
 
 
@@ -11,6 +22,11 @@ def Add(arr, value):
 
 
 def Remove(arr, value):
+    """
+    removes first occcurence of value in arr
+    :param value: value to be removed
+    :return:
+    """
     pass
 
 
@@ -53,3 +69,6 @@ def Menu():
         Min(arr)
     elif choice == 2:
         Max(arr)
+
+
+if __name__ = "__main__":
