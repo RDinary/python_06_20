@@ -8,7 +8,7 @@ V על הפונקציה להחזיר את המספר בתור Integer.
 תוודאו שהפונקציה לא תקרוס בשום שלב.
 """
 
-
+#this is a git test
 def get_num():
     num = -1
     while not (num <= 10000 and num >= 0):
