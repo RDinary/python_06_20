@@ -49,7 +49,7 @@ def func(a, b):
         b.append(a[i])
 
 #this is another change
-    
+
 
 # 11
 print(func([1, 2, 3, 4], [4, 3, 2, 1]))
