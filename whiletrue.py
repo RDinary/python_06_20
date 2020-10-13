@@ -10,7 +10,7 @@ V על הפונקציה להחזיר את המספר בתור Integer.
 
 #this is a git test
 def get_num():
-    num = -1
+    num = 5
     while not (num <= 10000 and num >= 0):
         try:
             num = int(input("write a number 0-10000: "))
